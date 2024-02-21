@@ -1,0 +1,38 @@
+react(This is a library)------->1)react-dom(for web app)  2)reatc-native(for mobile app)       these are the two main libs you can see in the package.json
+npm--->node package manager
+npx--->node package executor
+
+///////////////// how to create the react project
+1)npm install -g create-react-app
+2)npx  create-react-app  testapp           // create-react-app is an utility means software that creates react app 
+
+
+/////////// now project is created,   explore package.json
+
+/////////// start the app
+npm run start(perfect)   or npm start(this gives some error we will see)        if not running then do npm install it will install required dependencies ok
+
+///////////// how to stop
+press clt+c in terminal
+
+
+
+
+/////////////Note::  In public folder---->index.html   is main page means "single page appliction" issi ki wajah se kahte hai
+
+///////////// src folder me--------->index.js hai jo ki back se html and js render karta hai index.html me                 and App.js me apna khud ka logic likhte hai
+///////////////
+
+
+
+Note:: Do below things or go to tailwind website---> create-react-js folder see guidelines very easy
+///////////////////////////// tailwind insertion in react.js project..
+1) Create project using below commands if already created skip 
+npx create-react-app my-project
+cd my-project
+
+2)Run below commands to insert tailwind css in react.js
+npm install -D tailwindcss
+npx tailwindcss init
+
+  you will get tailwind.config.js
